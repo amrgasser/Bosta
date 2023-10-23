@@ -30,6 +30,7 @@ This app uses a nodejs server with a postgresSQL database. Implemented rate limi
   
   
   # DB Diagram
-  ![DB DIAGRAM] (https://github.com/amrgasser/Bosta/blob/master/public/DB.png)
+  <img src="DB.png" alt="image_name png" />
+
 
 
