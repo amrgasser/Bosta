@@ -1,0 +1,16 @@
+{
+  "dev": {
+    "driver": "pg",
+    "host": "127.0.0.1",
+    "database": "bosta2",
+    "user": "root",
+    "password": "root"
+  },
+  "test": {
+    "driver": "pg",
+    "host": "127.0.0.1",
+    "database": "bosta2",
+    "user": "root",
+    "password": "root"
+  }
+}
