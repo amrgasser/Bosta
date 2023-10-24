@@ -3,7 +3,7 @@
 - run ```docker-compose up```
 - run ```npm start```
 ------
-This app uses a nodejs server with a postgresSQL database. Implemented rate limiter using IP address and stored in a redis cache and created a middleware for it to control TTL and max number of hits. Created a middleware for jwt authentication.
+This app uses a nodejs server with a postgresSQL database. Implemented rate limiter using IP address and stored in a redis cache and created a middleware for it to control TTL and max number of hits. Created a middleware for jwt authentication. Added index for borrower_check_book table by borrower_id to speed up the process of a user checking their books.
 
 # Endpoints
 - Books
